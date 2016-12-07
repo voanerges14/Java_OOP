@@ -9,7 +9,7 @@ import java.awt.event.MouseEvent;
 public class LineDrawTool extends DrawTool {
     public LineDrawTool(ShapesDrawer shapesDrawer) {
         super(shapesDrawer);
-        getChooseToolBtn().setText("Линия");
+        getChooseToolBtn().setText("Лінія");
         getChooseToolBtn().addMouseListener(new ChooseToolBtnMouseListener(shapesDrawer) {
             public void mousePressed(MouseEvent e) {
                 getShapesDrawer().setDrawTool(LineDrawTool.this);

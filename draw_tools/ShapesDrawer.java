@@ -15,7 +15,7 @@ public class ShapesDrawer extends JPanel {
         setBackground(Color.WHITE);
     }
 
-    private JButton undoButton = new JButton("Отмена");
+    private JButton undoButton = new JButton("Дію Назад");
     {
         undoButton.addMouseListener(new MouseAdapter() {
             @Override

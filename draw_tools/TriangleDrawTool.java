@@ -8,7 +8,7 @@ import java.awt.event.MouseEvent;
 public class TriangleDrawTool extends DrawTool {
     public TriangleDrawTool(ShapesDrawer shapesDrawer) {
         super(shapesDrawer);
-        getChooseToolBtn().setText("Треугольник");
+        getChooseToolBtn().setText("Трикутник");
         getChooseToolBtn().addMouseListener(new ChooseToolBtnMouseListener(shapesDrawer){
             public void mousePressed(MouseEvent e) {
                 getShapesDrawer().setDrawTool(TriangleDrawTool.this);

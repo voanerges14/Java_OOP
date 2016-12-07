@@ -8,7 +8,7 @@ import java.awt.event.MouseEvent;
 public class PolylineDrawTool extends MultidotShapeDrawTool {
     public PolylineDrawTool(ShapesDrawer shapesDrawer) {
         super(shapesDrawer);
-        getChooseToolBtn().setText("Ломаная");
+        getChooseToolBtn().setText("Ламана");
         getChooseToolBtn().addMouseListener(new ChooseToolBtnMouseListener(shapesDrawer){
             public void mousePressed(MouseEvent e){
                 getShapesDrawer().setDrawTool(PolylineDrawTool.this);

@@ -8,7 +8,7 @@ import java.awt.event.MouseEvent;
 public class CircleDrawTool extends DrawTool {
     public CircleDrawTool(ShapesDrawer shapesDrawer){
         super(shapesDrawer);
-        getChooseToolBtn().setText("Окружность");
+        getChooseToolBtn().setText("Коло");
         getChooseToolBtn().addMouseListener(new ChooseToolBtnMouseListener(shapesDrawer){
             public void mousePressed(MouseEvent e){
                 getShapesDrawer().setDrawTool(CircleDrawTool.this);

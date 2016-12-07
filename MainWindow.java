@@ -27,7 +27,7 @@ public class MainWindow extends JPanel {
 
 
     public static void main(String[] args) {
-        JFrame mainFrame = new JFrame("Лабораторная работа №1, 2");
+        JFrame mainFrame = new JFrame("ООП");
         mainFrame.setVisible(true);
         mainFrame.setMinimumSize(new Dimension(500, 400));
         mainFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

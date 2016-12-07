@@ -8,7 +8,7 @@ import java.awt.event.MouseEvent;
 public class EllipseDrawTool extends DrawTool {
     public EllipseDrawTool(ShapesDrawer shapesDrawer) {
         super(shapesDrawer);
-        getChooseToolBtn().setText("Эллипс");
+        getChooseToolBtn().setText("Еліпс");
         getChooseToolBtn().addMouseListener(new ChooseToolBtnMouseListener(shapesDrawer) {
             public void mousePressed(MouseEvent e) {
                 getShapesDrawer().setDrawTool(EllipseDrawTool.this);

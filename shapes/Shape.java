@@ -6,7 +6,7 @@ public abstract class Shape {
     private Color borderColor;
 
     public Shape(){
-        borderColor = Color.BLACK;
+        borderColor = Color.BLUE;
     }
 
     public Color getBorderColor(){
